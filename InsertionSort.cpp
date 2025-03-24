@@ -1,12 +1,9 @@
 
-j  = i - 1; // step 3
-
-while (j >= 0 && arr[j] > temp) // step 4
+void display()
 {
-arr[j + 1] = arr[j]; //step 4a
-j--; //step 4b
-}
-
-arr[j + 1] = temp; //step 5
-}
-}
+cout << endl;
+cout << "==========================" << endl;
+cout << "total pass =" << n -1 << endl;
+cout << "==========================" << endl;
+cout << "element Array yang telah tersusun" << endl;
+cout << "===========================" << endl;
